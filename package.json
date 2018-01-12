@@ -1,0 +1,55 @@
+{
+  "name"        : "alexa-my-meal-planner",
+  "description" : "Alexa skill that helps you plan your meals and nutrition",
+  "version"     : "0.1.0",
+  "private"     : true,
+
+  "author"      : "Andrew Vaughan <hello@andrewvaughan.io>",
+  "homepage"    : "https://github.com/andrewvaughan/alexa-my-meal-planner",
+  "license"     : "MIT",
+
+  "repository"   : "https://github.com/andrewvaughan/alexa-my-meal-planner",
+  "contributors" : "https://github.com/andrewvaughan/alexa-my-meal-planner/contributors",
+  "bugs"         : "https://github.com/andrewvaughan/alexa-my-meal-planner/issues",
+
+  "alexa": {
+    "appid" : "amzn1.ask.skill.920333c3-bd89-4576-92fd-0874e4efe762"
+  },
+
+  "keywords": [
+    "Alexa",
+    "skill",
+    "meal-planner"
+  ],
+
+  "main" : "src/index.js",
+
+  "scripts": {
+    "test"          : "gulp test",
+    "test:lint"     : "gulp lint",
+    "test:coverage" : "gulp coverage"
+  },
+
+  "dependencies": {
+    "alexa-sdk" : "1.0.25"
+  },
+
+  "devDependencies": {
+    "browser-sync"      : "2.23.1",
+    "eslint"            : "4.14.0",
+    "gulp"              : "3.9.1",
+    "gulp-eslint"       : "4.0.0",
+    "gulp-if"           : "2.0.2",
+    "gulp-istanbul"     : "1.1.2",
+    "gulp-jsdoc3"       : "1.0.1",
+    "gulp-jshint"       : "2.1.0",
+    "gulp-load-plugins" : "1.5.0",
+    "gulp-mocha"        : "3.0.1",
+    "istanbul"          : "0.4.5",
+    "jshint"            : "2.9.5",
+    "jshint-stylish"    : "2.2.1",
+    "mocha"             : "4.1.0",
+    "should"            : "13.2.0",
+    "sinon"             : "4.1.4"
+  }
+}
